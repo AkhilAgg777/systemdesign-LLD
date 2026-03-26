@@ -5,7 +5,9 @@ import java.util.List;
 
 public class Show {
 	public Movie movie;
-	public Date time;
+	public Date startTime;
+	public Date endTime;
 	public Auditorium auditorium;
 	List<ShowSeat> showSeats;
+	public String Language;
 }
